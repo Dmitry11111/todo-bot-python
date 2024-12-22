@@ -32,5 +32,5 @@
 def save_todos():
     with open('todos.json', 'w', encoding='utf-8') as file:
         json.dump(todos, file, ensure_ascii=False, indent=4)
-
+```python
 ### 2. Загрузка задач из JSON
