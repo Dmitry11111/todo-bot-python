@@ -7,7 +7,7 @@ import json
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Токен бота
-token = '7769145923:AAEA5JHOeuWcwIvUr-shE6l3lgqmQ4_mero'
+token = 'YOUR_BOT_TOKEN'
 bot = telebot.TeleBot(token)
 
 # Случайные задачи
